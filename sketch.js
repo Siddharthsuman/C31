@@ -46,7 +46,7 @@ for (var k=0;k<=width;k=k+80){
 function draw() {
 background(15, 77, 140);
 Engine.update(engine);
-if (frameCount%1===0){
+if (frameCount%60===0){
   particles.push(new Particle(random(width/2-10,width/2+20),10,10));
 }
 for (var j = 0; j < plinkos.length; j++) {

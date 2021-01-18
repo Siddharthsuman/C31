@@ -10,8 +10,9 @@ class Divisions{
     }
    display(){
        var pos=this.body.position;
-       fill(196, 255, 233);
+     
        rectMode(CENTER);
+       fill(196, 255, 233);
        rect(pos.x,pos.y,this.width,this.height);
    }
 }
