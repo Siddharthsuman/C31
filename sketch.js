@@ -15,7 +15,7 @@ function setup() {
   
   engine=Engine.create();
   world=engine.world;
-  ground1=new Ground(width/2,778,700,20);
+  ground1=new Ground(width/2,760,700,20);
  for(var j=65; j<=width;j=j+75)
   {
     plinkos.push(new Plinko(j,75));
